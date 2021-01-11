@@ -4,7 +4,7 @@ import redditRouter from './reddit.routes';
 
 const routes = Router();
 
-routes.use('/reddit', redditRouter);
 routes.use('/posts', postRouter);
+routes.use('/reddit', redditRouter);
 
 export default routes;
