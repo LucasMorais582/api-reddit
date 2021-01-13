@@ -1,5 +1,5 @@
 # api-reddit
-Api coletora de dados específicos do reddit a partir da execução de um Job, além da disponibilização de endpoint para consultas aos dados que estão sendo armazenados automaticamente.
+Api coletora de dados específicos do reddit a partir da execução de um Job, além da disponibilização de endpoints para consultas aos dados que estão sendo armazenados automaticamente.
 
 ## Tecnologias
 
@@ -25,7 +25,7 @@ git clone https://github.com/LucasMorais582/api-reddit.git
 ## Banco de dados:
 - O primeiro passo é instalar o [Docker](https://docs.docker.com/engine/install/) na sua máquina
 - Em seguida, instalar a imagem do [Mysql](https://hub.docker.com/_/mysql). Caso nunca tenha utilizado o Mysql na sua máquina, é necessário criar seu login para ter acesso.
-- Criar um banco de dados com o nome: "desafio_winnin" ou com o nome que desejar, desde que altere também no arquivo 'ormconfig.json' e altere os parâmetros 'username' e 'password' (Nesse passo, pode-se utilizar o phpAdmin ou algum programa como o [Dbeaver](https://dbeaver.io/) ou [Mysql Workbanch](https://www.mysql.com/products/workbench/) para realizar a conexão com a imagem).
+- Criar um banco de dados com o nome: "desafio_winnin" ou com o nome que desejar, desde que altere também no arquivo 'ormconfig.json' e altere os parâmetros 'username' e 'password' para os que você criou (Nesse passo, pode-se utilizar o phpAdmin ou algum programa como o [Dbeaver](https://dbeaver.io/) ou [Mysql Workbanch](https://www.mysql.com/products/workbench/) para realizar a conexão com a imagem).
 
 
 ## Passos para inicializar a aplicação:
