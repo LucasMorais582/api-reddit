@@ -31,7 +31,7 @@ interface PostDTO{
     | minute
     second
 */
-let cron = Cron.schedule("* * * * *", async () => {
+let cron = Cron.schedule("* * *", async () => {
     try {
       let posts_reddit: PostDTO | any = [];
       const post_service = new CreatePostService();

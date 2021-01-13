@@ -35,8 +35,8 @@ class PostsRepository extends Repository<Post> {
             new_posts.push(item);
         }
         else{
-          let element_delete = new_posts.findIndex((item:any) =>{
-            return item.author;
+          let element_delete = new_posts.findIndex((index:any) =>{
+            return (item.author == index.author && item.title == index.title);
           });
           new_posts.splice(element_delete, 1);
         }

@@ -2,9 +2,9 @@
   "type": "mysql",
   "host": "localhost",
   "port": 3306,
-  "username": "root",
-  "password": "Lucas582!",
-  "database": "desafio_winnin",
+  "username": "Coloque seu usuário aqui",
+  "password": "Coloque sua senha aqui",
+  "database": "coloque o nome do banco criado aqui",
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
